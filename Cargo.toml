@@ -1,0 +1,20 @@
+[package]
+name = "sdl22"
+version = "0.1.0"
+authors = ["anudeep"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+png = "0.16.8"
+regex= "1.4.2"
+gl= "0.14.0"
+
+[dependencies.sdl2]
+version= "0.34.3"
+default-features=false
+features=["gfx","ttf","image"]
+
+
+[dependencies.lib1]
+path="/home/anudeep/rustwd/lib1"
